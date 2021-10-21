@@ -57,7 +57,7 @@
         }
 
         function getInformation() {
-            return 'Titolo: ' . $this->title . '</br>' . 'Voto: ' . $this->vote . '</br>' . 'Data uscita: ' . $this->release_date . '</br>' . 'Lingua originale: ' . $this->original_language . '</br>' . 'Genere: ' . $this->genre . '</br></br>';
+            return 'Titolo: ' . $this->getTitle() . '</br>' . 'Voto: ' . $this->getVote() . '</br>' . 'Data uscita: ' . $this->getReleaseDate() . '</br>' . 'Lingua originale: ' . $this->getOriginalLanguage() . '</br>' . 'Genere: ' . $this->getGenre() . '</br></br>';
         }
 
     }
